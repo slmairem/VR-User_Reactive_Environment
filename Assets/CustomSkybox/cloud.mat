@@ -28,10 +28,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _QueueControl: 0
-    - _cloudsAlpha: 0.02
-    - _cloudsPower: -0.59
+    - _cloudsAlpha: 0.01
+    - _cloudsPower: -0.67
+    - _distortScale: 60
     m_Colors:
-    - _cloudSpeed: {r: 0.002, g: 0, b: 0, a: 0}
+    - _cloudSpeed: {r: 0.001, g: 0, b: 0, a: 0}
     - _cloudsColor: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
     - _distortSpeed: {r: 0.05, g: 0.01, b: 0, a: 0}
   m_BuildTextureStacks: []
