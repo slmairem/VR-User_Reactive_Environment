@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// SkyRotation.cs
+
 public class SkyRotation : MonoBehaviour
 {
-    public float rotationSpeed = 1f;
+    public float rotationSpeed = 6f; 
 
     void Update()
     {
-        RenderSettings.skybox.SetFloat("_Rotation", Time.time * rotationSpeed);
+        transform.Rotate(Vector3.right, rotationSpeed * Time.deltaTime);
     }
 }
